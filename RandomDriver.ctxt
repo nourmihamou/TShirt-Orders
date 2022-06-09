@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=RandomDriver
+comment0.text=\n\ CSIS-120,\ Project\ 5\n\ \n\ Write\ a\ program\ that\ creates\ an\ ArrayList\ of\ customer\ orders.\n\ Add\ 5\ customers,\ 3\ paid\ and\ 2\ unpaid,\ to\ the\ ArrayList.\ \ \n\ -For\ each\ customer,\ add\ a\ random\ number\ of\ orders\ in\ [1,\ 5].\ \ *\n\ -For\ each\ order,\ the\ category,\ size,\ and\ color\ of\ the\ t-shirts\ \n\ should\ be\ randomly\ selected,\ as\ well\ as\ a\ random\ quantity\ in\n\ [1,\ 24].\ \ \n\ -Then,\ print\ each\ customer's\ orders\ to\ the\ terminal\ window.\ \ \n\ -Finally,\ print\ a\ matrix\ showing\ the\ boys\ t-shirt\ order\ for\ \n\ all\ customers\ with\ rows\ of\ sizes\ and\ columns\ of\ colors\ as\ \n\ shown\ in\ the\ sample\ program\ run.\n\ \n\ Add\ any\ additional\ private\ methods\ you\ need\ for\n\ good\ program\ design.\n\ \n\ @author\ Nour\ Mihamou\ and\ Lulama\ Nyembe\n\ @version\ 05/14/2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ This\ program\ behaves\ as\ described\ in\ the\ banner\ comment.\n\ \n\ @param\ No\ command\ line\ arguments\ required.\n
+comment2.params=randomInt
+comment2.target=Category\ getCategory(int)
+comment2.text=\n\ This\ method\ takes\ as\ input\ a\ random\ integer\ from\ 1\ to\ 4\ and\ returns\ an\ enumerated\ type,\n\ Category\ based\ on\ the\ integer.\n\ \n\ Category\:\ BOYS,\ GIRLS,\ MENS,\ WOMENS\n\ \n\ @param\ randomInt\ The\ random\ integer\ from\ 1\ to\ 4.\n\ @return\ Returns\ a\ \n
+comment3.params=randomInt
+comment3.target=Size\ getSize(int)
+comment3.text=\n\ This\ method\ takes\ as\ input\ a\ random\ integer\ from\ 1\ to\ 5\ and\ returns\ an\ enumerated\ type,\n\ Size\ based\ on\ the\ integer.\n\ \n\ Category\:\ XSMALL,\ SMALL,\ MEDIUM,\ LARGE,\ XLARGE\n\ \n\ @param\ randomInt\ The\ random\ integer\ from\ 1\ to\ 5.\n\ @return\ Returns\ a\ size\n
+comment4.params=randomInt
+comment4.target=Color\ getColor(int)
+comment4.text=\n\ This\ method\ takes\ as\ input\ a\ random\ integer\ from\ 1\ to\ 5\ and\ returns\ an\ enumerated\ type,\n\ Color\ based\ on\ the\ integer.\n\ \n\ Category\:\ GREEN,\ GOLD,\ WHITE,\ BLACK,\ MULTI\n\ \n\ @param\ randomInt\ The\ random\ integer\ from\ 1\ to\ 5.\n\ @return\ Returns\ a\ Color\n
+comment5.params=arr\ size\ row
+comment5.target=void\ printRow(int[][],\ java.lang.String,\ int)
+comment5.text=\n\ This\ method\ prints\ a\ row\ of\ the\ array\ boysTShirts.\n\ \n\ @param\ arr\ The\ two-demnsional\ array.\n\ @param\ size\ A\ string\ of\ the\ size.\n\ @param\ row\ An\ integer\ representing\ the\ row\ of\ the\ two-dimensional\ array.\n
+comment6.params=
+comment6.target=void\ printBoysOrder()
+comment6.text=\n\ This\ method\ prints\ a\ matrix\ showing\ the\ boys\ t-shirt\ order\ for\ \n\ all\ customers\ with\ rows\ of\ sizes\ and\ columns\ of\ colors\ as\ \n\ shown\ in\ the\ sample\ program\ run.\n
+numComments=7

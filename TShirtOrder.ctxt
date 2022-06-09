@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=TShirtOrder
+comment0.text=\n\ CSIS-120\ Project\ 5\n\ This\ class\ represents\ one\ t-shirt\ order.\n\n\ COMPLETE\ THIS\ CLASS\ ACCORDING\ TO\ ITS\ METHOD\ COMMENTS.\n\ \n\ @author\ Nour\ Mihamou\ and\ Lulama\ Nyembe\n\ @version\ 05/13/2021\n
+comment1.params=category\ size\ color\ quantity
+comment1.target=TShirtOrder(Category,\ Size,\ Color,\ int)
+comment1.text=\n\ Constructs\ a\ new\ t-shirt\ order.\ \ The\ quantity\ must\ be\ >\=\ 0\ or\n\ is\ set\ to\ 0.\ \ Sets\ the\ order\ number\ to\ the\ next\ order\ number\ \n\ in\ the\ sequence.\n\ \n\ @param\ category\ BOYS,\ GIRLS,\ MENS,\ WOMENS\n\ @param\ size\ XSMALL,\ SMALL,\ MEDIUM,\ LARGE,\ XLARGE\n\ @param\ color\ GREEN,\ GOLD,\ WHITE,\ BLACK,\ MULTI\n\ @param\ quantity\ The\ number\ of\ t-shirts\ of\ this\ type\ ordered\ >\=\ 0.\ \ If\n\ not\ >\=\ 0,\ is\ set\ to\ 0.\n
+comment10.params=quantity
+comment10.target=void\ setQuantity(int)
+comment10.text=\n\ Changes\ the\ quantity\ for\ this\ order\ to\ the\ input\n\ quantity.\ \ If\ the\ input\ quantity\ is\ <\ 0,\ changes\n\ the\ quantity\ for\ this\ order\ to\ 0.\n\ \n\ @param\ quantity\ The\ new\ quantity\ for\ this\ order.\n
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment11.text=\n\ Returns\ a\ string\ representation\ of\ this\ order.\n\ \n\ @param\ Returns\ a\ string\ representation\ of\ this\ order.\n
+comment2.params=
+comment2.target=int\ getOrderNumber()
+comment2.text=\n\ Returns\ the\ order\ number.\n\ \n\ @return\ The\ order\ number.\n
+comment3.params=
+comment3.target=java.lang.String\ getCategory()
+comment3.text=\n\ Returns\ the\ category\ as\ a\ string.\n\ \n\ @return\ The\ category\ as\ a\ string.\n
+comment4.params=
+comment4.target=java.lang.String\ getSize()
+comment4.text=\n\ Returns\ the\ size\ as\ a\ string.\n\ \n\ @return\ The\ size\ as\ a\ string.\n
+comment5.params=
+comment5.target=java.lang.String\ getColor()
+comment5.text=\n\ Returns\ the\ color\ as\ a\ string.\n\ \n\ @return\ The\ color\ as\ a\ string.\n
+comment6.params=
+comment6.target=int\ getQuantity()
+comment6.text=\n\ Returns\ the\ quantity\ ordered.\n\ \n\ @return\ The\ quantity\ ordered.\n
+comment7.params=newCategory
+comment7.target=void\ setCategory(Category)
+comment7.text=\n\ Changes\ the\ category\ to\ the\ input\ category.\n\ \n\ @param\ newCategory\ \ The\ new\ category\ for\ this\ order.\n
+comment8.params=newSize
+comment8.target=void\ setSize(Size)
+comment8.text=\n\ Changes\ the\ size\ to\ the\ input\ size.\n\ \n\ @param\ \ newSize\ The\ new\ size\ for\ this\ order.\n
+comment9.params=newColor
+comment9.target=void\ setColor(Color)
+comment9.text=\n\ Changes\ the\ color\ to\ the\ input\ color.\n\ \n\ @param\ newColor\ The\ new\ color\ for\ this\ order.\n
+numComments=12
